@@ -71,8 +71,8 @@ def csvviresult():
     # data = request.form['text']
     # table = TableFu.from_file('app/vi-csv.csv')
     table = TableFu.from_file('app/heck.csv')
-    # return render_template('vi-template.html', table=table)
-    return render_template('heck-template.html', table=table)
+    return render_template('vi-template.html', table=table)
+    # return render_template('heck-template.html', table=table)
 
 #podcast index and process results
 @app.route('/podcast')
